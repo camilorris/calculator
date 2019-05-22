@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.calculator {
+  width: 400px;
+  background-color: #303030;
+  color: #ffefef;
+}
+
+.screen {
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: right;
+  padding: 20px 5px;
+}
+
+.button {
+  background-color: #78adad;
+  color: #303030;
+  height: 100px;
+  width: 24.5%;
+  border: none;
+  border-radius: none;
+  font-size: 40px;
+  font-family: "Ubuntu Mono", monospace;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #8ab4b4;
+}
+
+.button:active {
+  background-color: #5aa0a0;
+  color: #ffefef;
+}
+
+.double {
+  width: 49.7%;
+}
+
+.triple {
+  width: 74.8%;
+}
+
+.calc-row {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-bottom: 0.5%;
+}
+
+.button:last-child {
+  background-color: #fad9c5;
+}
+
+.button:last-child:hover {
+  background-color: #fce3d4;
+}
+
+.button:last-child:active {
+  background-color: #ffc9a9;
+  color: #ffefef;
+}
